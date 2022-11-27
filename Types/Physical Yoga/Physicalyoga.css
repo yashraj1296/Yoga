@@ -1,0 +1,126 @@
+body {
+    background-color: #7A73C6;
+    font-size: 18px;
+}
+
+/* info Section */
+
+#info {
+    background-color: #7A73C6;
+}
+
+.physicalyogah1 {
+    background-color: #001E6C;
+    color: #ffffff;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Information h3 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.Information p {
+    color: #ffffff;
+    margin-bottom: 0px;
+    padding: 2% 3% 2% 3%;
+}
+
+hr {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-style: none;
+    border-top: dotted;
+    border-color: black;
+    height: 2px;
+    width: 60px;
+    border-width: 8px;
+    padding-bottom: 1%;
+}
+
+/* benifits Section */
+
+.Benifits {
+    text-align: center;
+    background-color: #7A73C6;
+    padding-bottom: 3%;
+}
+
+.Benifits table {
+    background-color: #7A73C6;
+    margin-left: 280px;
+    text-align: left;
+}
+
+.Benifits h3 {
+    font-size: 35px;
+    color: #ffffff;
+    padding-top: 2%;
+}
+
+.Benifits li {
+    color: #ffffff;
+    padding-top: 7px;
+}
+
+/* Pricing Section */
+
+#Pricing {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.card-header {
+    color: #ffffff;
+}
+
+.card {
+    padding-left: 0%;
+    padding-right: 0%;
+    border: 0ch;
+}
+
+.card-header {
+    background-color: #04009A;
+}
+
+#Pricing button {
+    background-color: #587cb3;
+}
+
+.firstcard {
+    border-right: 2px solid;
+}
+
+/* Footer Section */
+
+#Footer {
+    padding-top: 3%;
+}
+
+#Footer p {
+    text-align: center;
+}
+
+/* Smartphone view */
+
+@media (max-width: 600px) {
+    .benifittable {
+        margin-left: 0px;
+        margin-right: 17px;
+    }
+}
+
+/* Tablet View */
+
+@media (max-width:1125px) {
+    .Benifits table {
+        margin-left: 17%;
+    }
+}

@@ -1,0 +1,147 @@
+/* All Body */
+
+body {
+    background-color: #7A73C6;
+    font-size: 18px;
+}
+
+hr {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-style: none;
+    border-top: dotted;
+    border-color: black;
+    height: 2px;
+    width: 60px;
+    border-width: 8px;
+    padding-bottom: 1%;
+}
+
+/* Information Section */
+
+#Information {
+    background-color: #7A73C6;
+}
+
+#Information h1 {
+    background-color: #001E6C;
+    color: #ffffff;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#Information h3 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 35px;
+}
+
+#Information p {
+    color: #ffffff;
+    margin-bottom: 0px;
+    padding: 2% 3% 2% 3%;
+}
+
+/* Diseases Section */
+#Diseases{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#Diseases .card-header{
+    background-color: #C1A1D3;
+}
+
+#Diseases .card{
+    padding-left: 0%;
+    padding-right: 0%;
+    /* border: gray  ridge; */
+}
+
+
+/* Benifits Section */
+
+#Benifits h3{
+    text-align: center;
+    color: #ffffff;
+    font-size: 35px;
+    padding-top: 2%;
+}
+
+#Benifits table{
+    margin-left: 400px;
+    color: #ffffff;
+}
+ 
+#Benifits .row{
+    padding-bottom: 3%;
+    padding-top: 1%;
+}
+
+
+/* Pricing Section */
+
+#Pricing .row{
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+}
+
+#Pricing .card{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#Pricing .card-header{
+    background-color: #04009A;
+    color: #ffffff;
+}
+
+#Pricing{
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+
+/* Footer Section */
+#Footer p {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+/* smartphone view */
+@media(max-width: 600px){
+    #Benifits table{
+        margin: 0%;
+        margin-right: 6%;
+    }
+
+    .disease-body p{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+}
+
+/* tablet/Ipad View */
+@media(max-width:990px){
+    #Benifits table{
+        margin:0%;
+        margin-left: 7%;
+    }
+}
+
+
+/* Ipadpro widht */
+
+@media(max-width:1024px){
+    #Benifits table{
+        margin: 0%;
+        margin-left: 18%;
+    }
+}
